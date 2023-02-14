@@ -4,23 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>html-css-toboolist</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Mulish:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- banner della pagnina -->
-    <head>
-
-    </head>
+    <header class="sfondo1">
+        <img id="logo" src="./assets/img/Logo.png" alt="">
+        <h1><strong>Toboolist</strong></h1>
+    </header>
 
     <!-- barra da navigazione -->
     <nav>
-
+        <span class="box1">Add Task</span>
+        <span class="box2">Add Task</span>
     </nav>
 
     <!-- corpo della pagina  -->
-    <main>
-        
+    <main class="container">
+        <ul>
+            <!-- prima lista -->
+            <li>
+                <!-- titolo lista 1 -->
+                <span class="freccia">New Task</span>
+                
+
+                <ul>
+                    <br>
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Qurterly Newsletter
+                        <span class="color-blue">Editorial</span>
+
+                    </li>
+                </ul>
+            </li>
+            <br>
+
+            <!-- seconda lista  -->
+            <li>
+                <!-- titolo lista 2 -->
+                <span class="freccia">Today</span>
+
+                <ul>
+                    <br>
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Recruiting blog post
+                        <span class="color-blue">Editorial</span>
+                    </li>
+                    <br>
+
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Mobile app luaunch
+                        <span class="color-viola">Q1 Goals</span>
+                    </li>
+                    <br>
+
+                    <li>
+                        <span class="x">&#215;</span>
+                        Interview John H.
+                        <span class="color-verde">Recruiting</span>
+                    </li>
+                    <br>
+
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Summit update to mobile storefronts
+                        <span class="color-orange">Mobile</span>
+                    </li>
+                    <br>
+                </ul>
+
+            </li>
+
+            <!-- terza lista  -->
+            <li>
+                <!-- titolo lista 3 -->
+                <span class="freccia">Upcoming</span>
+            
+
+                <ul>
+                    <br>
+                    <li>
+                        <span class="x">&#215;</span>
+                        Schedule meeting with Alex
+                    </li>
+                    <br>
+
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Homepage refresh
+                        <span class="color-pink">Website</span>
+                    </li>
+                    <br>
+
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Onboard new Sales team members
+                        <span class="color-lime">Sales</span>
+                    </li>
+                    <br>
+
+                    <li>
+                        <span class="check">&#10003;</span>
+                        Review editorial calendar
+                        <span class="color-blue">Editorial</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </main>
 </body>
 </html>
